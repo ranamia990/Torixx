@@ -35,23 +35,23 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61567301076941",
-    "100086680386976",
-    "100082395531611",
-    "100000654976375"
+    "100055402381432",
+    "",
+    "",
+    ""
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [
-      "61567301076941",
-      "100082395531611",
-      "100086680386976",
-      "100000654976375"
+      "100055402381432",
+      "",
+      "",
+      ""
       
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "☆𝐀𝐁𝐇𝐑𝐀𝐍𝐈𝐋☆ BOT",
+  "nickNameBot": "☆Hasib☆ BOT",
   "prefix": "/",
   "BaYjidnapi": "",
   "api": "",
