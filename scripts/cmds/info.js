@@ -5,7 +5,6 @@ const path = require('path');
 module.exports = {
 	config: {
 		name: "info",
-		aliases: ["admin"],
 		author: "ArYan 🤡",
 		role: 0,
 		shortDescription: "info and my owner the cmd",
@@ -17,16 +16,16 @@ module.exports = {
 	onStart: async function ({ api, event }) {
 		try {
 			const ArYanInfo = {
-				name: '𝐮 𝐥 𝐥 𝐚 𝐬 𝐡 ッ',
+				name: 'Hasib Mondol',
 				gender: '𝐌𝐚𝐥𝐞',
 				age: '21',
-				Tiktok: 'ullash01',
-				Relationship: '𝐢𝐧 𝐜𝐨𝐦𝐩𝐥𝐢𝐜𝐚𝐭𝐞𝐝',
+				Tiktok: 'hasibmondol223',
+				Relationship: 'single',
 				religion: '𝐈𝐬𝐥𝐚𝐦',
-				facebook: 'https://www.facebook.com/profile.php?id=100086680386976'
+				facebook: 'https://www.facebook.com/profile.php?id=100055402381432'
 			};
 
-			const ArYan = 'https://i.imgur.com/k8nes6h.jpeg';
+			const ArYan = 'https://i.imgur.com/QtiFgpN.jpeg';
 			const tmpFolderPath = path.join(__dirname, 'tmp');
 
 			if (!fs.existsSync(tmpFolderPath)) {
@@ -44,7 +43,7 @@ module.exports = {
 │𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 :${ArYanInfo.Relationship}
 │𝐀𝐠𝐞 :${ArYanInfo.age}
 │𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧: ${ArYanInfo.religion}
-│𝐓𝐢𝐤𝐭𝐨𝐤 : ${ArYanInfo.Tiktok}
+│𝐓𝐢𝐤𝐭𝐨𝐤 : ${ArYanInfo.instagram}
 │𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤: ${ArYanInfo.facebook}\n╰────────────❁`;
 
 			await api.sendMessage({
