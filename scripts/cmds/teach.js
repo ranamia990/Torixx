@@ -167,10 +167,16 @@ module.exports = {
 					return message.reply("এত উল্লাস উল্লাস করিস কেনো,এত ডাকাডাকি না করে উল্লাস কে একটা girlfriend জোগাড় করে দে 🥹");
 				case "শাওন":
 					return message.reply("আপনি কাকে ডাকছেন 🙂🤔");
+                                case "Oishi":
+					return message.reply("vabi");
+                                case "Hasna k":
+			        	return message.reply("Hasib erkochi natni");
 				case "shaon":
 					return message.reply("shaon apnar ke hoi !?");
 				case "তোমাকে তৈরি করছে কে":
 					return message.reply("আমাকে তৈরি করেছেন উল্লাস");
+				case "hasib k":
+					return message.reply("boss");
 				case "😒":
 					return message.reply("এভাবে চোখ বাকা করে কি দেখিস🧐🤨!?");
 				default:
